@@ -741,6 +741,19 @@ pre {
     border-color: var(--primary);
 }
 
+#contact-form .form-group {
+    margin-top: 10px;
+}
+
+.form-row .form-group {
+    margin-top: 0;
+}
+
+.form-group label {
+    margin-bottom: 8px;
+    display: inline-block;
+}
+
 .btn-block {
     width: 100%;
     margin-top: 25px;
