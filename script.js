@@ -120,7 +120,7 @@ if (contactForm) {
 
         // EmailJS Credentials
         const serviceID = 'service_htlbvwg';
-        const templateID = 'template_vyqqxm3';
+        const templateID = 'template_wosxtln';
 
         // REAL EMAIL SENDING LOGIC (LIVE)
         emailjs.sendForm(serviceID, templateID, this)
