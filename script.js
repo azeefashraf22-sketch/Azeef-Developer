@@ -53,7 +53,7 @@ window.addEventListener('scroll', () => {
 // 4. TYPED.JS INITIALIZATION
 if (typeof Typed !== 'undefined' && document.getElementById('typed-output')) {
     new Typed('#typed-output', {
-        strings: ['Full Stack Developer', 'MERN Stack Expert', 'UI/UX Enthusiast'],
+        strings: ['Full Stack Developer', 'MERN Stack Expert', 'UI/UX Enthusiast', 'Problem Solver'],
         typeSpeed: 60,
         backSpeed: 40,
         loop: true
