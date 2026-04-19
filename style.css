@@ -1005,12 +1005,18 @@ body {
     }
 
     /* Footer */
+    .footer-grid {
+        padding-bottom: 50px !important;
+        gap: 35px !important;
+    }
+
     .footer-about p {
         margin: 0 auto 20px;
     }
 
     .social-icons {
         justify-content: center;
+        margin-bottom: 13px;
     }
 }
 
