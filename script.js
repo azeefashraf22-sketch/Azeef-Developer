@@ -140,6 +140,18 @@ if (contactForm) {
     });
 }
 
+// Press Enter Key To Send Form
+if (contactForm) {
+    contactForm.querySelectorAll('input, textarea').forEach(input => {
+        input.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' && !e.shiftKey) {
+                e.preventDefault();
+                contactForm.requestSubmit();
+            }
+        });
+    });
+}
+
 
 // 1. Success Toast
 function showSuccessToast() {
@@ -204,4 +216,10 @@ function showValidationErrorToast() {
             if (title) title.style.whiteSpace = 'nowrap';
         }
     });
+}
+
+// 8. Footer year dynamic
+const yearSpan = document.getElementById('year');
+if (yearSpan) {
+    yearSpan.textContent = new Date().getFullYear();
 }
